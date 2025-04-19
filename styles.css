@@ -18,3 +18,18 @@
   display: flex;
   justify-content: space-between;
 }
+
+.bottomHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2ch;
+  padding-right: 1rem;
+}
+
+.mainContentContainer {
+  display: flex;
+  min-width: 1280px;
+  margin: 0 auto;
+  padding: 0.25rem;
+}
