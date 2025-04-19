@@ -29,6 +29,8 @@ html {
   align-items: center;
   gap: 2ch;
   padding-right: 1rem;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .topLeftOptions {
@@ -47,8 +49,9 @@ html {
 
 .mainContentContainer {
   display: flex;
-  min-width: 1280px;
+  max-width: 1280px;
   padding: 0.25rem;
+  margin: 0 auto;
 }
 
 .sideNavContainer {
@@ -71,6 +74,16 @@ html {
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   grid-auto-rows: 25rem;
   gap: 0.5rem;
+}
+
+.productMiniContainers {
+  display: flex;
+  flex-direction: column;
+}
+
+.productMiniContainers footer {
+  display: flex;
+  justify-content: space-between;
 }
 .footerContainer {
   display: flex;
