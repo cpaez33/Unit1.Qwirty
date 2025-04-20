@@ -97,6 +97,10 @@ a {
   color: white;
 }
 
+.topLeftOptions li a:hover {
+  text-decoration: underline;
+}
+
 .topLeftOptions li:not(:last-child) {
   border-right: 1px solid white;
 }
@@ -114,6 +118,11 @@ a {
 .topRightOptions li a {
   color: white;
 }
+
+.topRightOptions li a:hover {
+  text-decoration: underline;
+}
+
 .topRightOptions li:not(:last-child) {
   border-right: 1px solid white;
 }
@@ -137,6 +146,10 @@ a {
   color: white;
   text-transform: uppercase;
   padding: 0.5rem;
+}
+
+.sideNavContainer a:hover {
+  background-color: #228;
 }
 
 main {
@@ -181,6 +194,7 @@ main {
   flex-direction: column;
   background-color: #4444bb;
   padding: 2rem 0.5rem;
+  gap: 2rem;
 }
 
 .footerContainer h2 {
@@ -193,6 +207,14 @@ main {
 .footerContainer menu {
   list-style: none;
   color: white;
+}
+
+.footerContainer menu li a {
+  color: white;
+}
+
+.footerContainer menu li a:hover {
+  text-decoration: underline;
 }
 
 .bottomMenuList {
